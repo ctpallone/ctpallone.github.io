@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links - My Personal Website</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="dist/styles.css" rel="stylesheet">
+    <!-- Or use CDN for quick start -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
 </head>
-<body>
-    <header>
-        <div class="banner">
-            <h1>My Links</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="photos.html">Photos</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="links.html">Links</a></li>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-green-500 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">My CV</h1>
+            <nav class="mt-4">
+                <ul class="flex justify-center space-x-4">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="cv.html" class="hover:underline">CV</a></li>
+                    <li><a href="research.html" class="hover:underline">Research</a></li>
+                    <li><a href="photos.html" class="hover:underline">Photos</a></li>
+                    <li><a href="publications.html" class="hover:underline">Publications</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                    <li><a href="links.html" class="hover:underline">Links</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <p>This is my Links page.</p>
-        <!-- Add your Links content here -->
+    <main class="container mx-auto py-8">
+        <section class="bg-white p-6 rounded-lg shadow-md">
+            <p class="text-center">This is my CV page.</p>
+            <!-- Add your CV content here -->
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2025 ctpallone</p>
+    <footer class="bg-green-500 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 ctpallone</p>
+        </div>
     </footer>
 </body>
 </html>
