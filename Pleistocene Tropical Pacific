@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Celeste T. Pallone">
+    <meta name="author" content="Celeste T. Pallone">
+
+        <title>BIGMACS Pleistocene stack · Celeste T. Pallone</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="./theme/css/main.css">
+
+    <link rel="stylesheet" href="./theme/css/solarized-light.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container" id="wrap">
+      <nav id="navbar" class="navbar navbar-default" role="navigation">
+    <div class="container">
+
+      <!--navbar-header-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=".">Celeste T. Pallone</a>
+      </div> <!--navbar-header-->
+
+      <!-- Search Box -->
+          <form class="navbar-form navbar-right" role="search"
+            action="https://www.google.com/cse"
+            id="searchbox_012678389367314664541:amm50msk28u" target="_blank">
+              <input type="hidden" name="cx" value="012678389367314664541:amm50msk28u" />
+              <input type="text" name="q" class="form-control" placeholder="Search">
+          </form>
+
+      <!--Menuitems, collapable-->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" id="menuitem-list">
+                <li >
+                  <a href="../index.html" >Home</a>
+                </li>
+
+                <li >
+                  <a href="../pages/cv.html" >CV</a>
+                </li>
+
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="../Pleistocene Tropical Pacific.html" >Pleistocene Tropical Pacific</a>
+                  </li>
+                  <li >
+                    <a href="../IODP Expedition 397: Iberian Margin Paleoclimate.html" >IODP Expedition 397: Iberian Margin Paleoclimate</a>
+                  </li>
+                  <li >
+                    <a href="../Cenozoic Hyperthermals.html" >Cenozoic Hyperthermals</a>
+                  </li>
+                </ul>
+              </li>
+                <li >
+                  <a href="../pages/photos.html" >Photos</a>
+                </li>
+
+                <li class="active">
+                  <a href="../pages/contact.html" >Contact</a>
+                </li>
+
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="https://scholar.google.com/citations?user=D57IrMIAAAAJ&hl=en"     target="_blank"
+>Google Scholar</a>
+                  </li>
+                  <li >
+                    <a href="https://github.com/ctpallone"     target="_blank"
+>GitHub</a>
+                  </li>
+                  <li >
+                    <a href="https://bsky.app/profile/cpallone.bsky.social"     target="_blank"
+>Bluesky</a>
+                  </li>
+                </ul>
+              </li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+
+    </div> <!--container-->
+  </nav>
+
+
+    <div class="container">
+      <div class="col-md-2">
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+              <div class="page-header">
+        <h1><a href="./BIGMACS.html">BIGMACS Pleistocene stack</a></h1>
+    </div>
+
+        </div>
+
+        <div class="row">
+
+    <span id="article_info">
+    <a class="label label-primary"
+      href="./category/postdoc-research.html">Postdoc research</a>
+    <!--<span class="glyphicon glyphicon-calendar"></span>-->
+      <b> · </b>
+      <a href="./archives.html#Year2023">2023</a>-<a href="./archives.html#Year2023Month01">01</a>-<a href="./archives.html#Year2023Month01">16</a>
+
+    <!--<span class="glyphicon glyphicon-user"></span>-->
+      <b> · </b>
+    <a href="./author/Celeste T. Pallone.html">Celeste T. Pallone</a>
+  </span>
+
+  <hr/>
+
+  <div id="article_content">
+    <p>Benthic \delta<sup>18</sup>O stacks can serve as measures of global climate change and stratigraphic alignment targets. Recently, a new method of constructing benthic \delta<sup>18</sup>O stacks with Bayesian inference has been developed that can take advantage of multiple types of age information, including stratigraphic alignment of benthic \delta<sup>18</sup>O, tephra layers, and magnetic reversals. Called BIGMACS (Bayesian Inference Gaussian Process regression and Multiproxy Alignment of Continuous Signals), the new software offers an opportunity to revisit Pleistocene benthic \delta<sup>18</sup>O stack with a new probabilistic alignment algorithm and updated age constraints. Here, we present a new Pleistocene benthic \delta<sup>18</sup>O stack constructed with BIGMACS. We compare the new stack with previous efforts, including the classic LR04 and another stack made with Bayesian methods, ProbStack, and discuss how the stacking methods may contribute to differences between the stacks. We also present regional stacks focusing on individual ocean basins. The regional stacks are made possible because BIGMACS uses Gaussian process regression and requires a smaller number of cores than previous stacking methods. We examine regional trends in our stack and discuss our results during periods of interest to the paleoclimate community, such as the 100-kyr world and Mid-Pleistocene Transition.</p>
+<p>We presented this work at AGU 2023. More updates soon!</p>
+  </div>
+
+  <hr/>
+
+      <ul class="pager">
+        <li class="previous disabled">
+          <a >
+          &laquo; Newer</a>
+        </li>
+        <li class="next">
+          <a href="./LILO_event.html">
+          Older &raquo;</a>
+        </li>
+      </ul>
+
+
+        </div>
+
+        <div class="row">
+        </div>
+
+      </div>
+
+      <div class="col-md-2">
+      </div>
+    </div>
+
+
+  </div>
+
+    <nav id="footer" class="navbar navbar-default">
+    <div class="container">
+        <p id="footer-text" class="navbar-text text-center">
+          <span id="engine">
+            Compiled using
+            <a href="https://docs.getpelican.com">Pelican</a>
+          </span>
+          <span id="theme">
+            with theme
+            <a href="https://github.com/yuex/pelican-chameleon">Chameleon</a>
+          </span>
+          <span id="bootstrap">
+            on top of
+            <a href="https://getbootstrap.com/">Bootstrap</a>
+          </span>
+        </p>
+      </div>
+    </div>
+  </nav>
+
+
+</body>
+</html>
