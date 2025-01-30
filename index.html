@@ -1,39 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="english">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link href="dist/styles.css" rel="stylesheet">
-    <!-- Or use CDN for quick start -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Yuxin Zhou">
+    <meta name="author" content="Yuxin Zhou">
+
+        <title>Celeste T. Pallone - Home · Celeste T. Pallone</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="./theme/css/main.css">
+
+    <link rel="stylesheet" href="./theme/css/solarized-light.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <header class="bg-green-500 text-white py-4">
-        <div class="container mx-auto text-center">
-            <h1 class="text-4xl font-bold">Welcome to My Personal Website</h1>
-            <nav class="mt-4">
-                <ul class="flex justify-center space-x-4">
-                    <li><a href="index.html" class="hover:underline">Home</a></li>
-                    <li><a href="cv.html" class="hover:underline">CV</a></li>
-                    <li><a href="research.html" class="hover:underline">Research</a></li>
-                    <li><a href="photos.html" class="hover:underline">Photos</a></li>
-                    <li><a href="publications.html" class="hover:underline">Publications</a></li>
-                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
-                    <li><a href="links.html" class="hover:underline">Links</a></li>
+
+<body>
+  <div class="container" id="wrap">
+      <nav id="navbar" class="navbar navbar-default" role="navigation">
+    <div class="container">
+
+      <!--navbar-header-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=".">Yuxin Zhou</a>
+      </div> <!--navbar-header-->
+
+      <!-- Search Box -->
+          <form class="navbar-form navbar-right" role="search"
+            action="https://www.google.com/cse"
+            id="searchbox_012678389367314664541:amm50msk28u" target="_blank">
+              <input type="hidden" name="cx" value="012678389367314664541:amm50msk28u" />
+              <input type="text" name="q" class="form-control" placeholder="Search">
+          </form>
+
+      <!--Menuitems, collapable-->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" id="menuitem-list">
+                <li >
+                  <a href="./index.html" >Home</a>
+                </li>
+
+                <li >
+                  <a href="./pages/cv.html" >CV</a>
+                </li>
+
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="./BIGMACS_stack.html" >BIGMACS stack</a>
+                  </li>
+                  <li >
+                    <a href="./LGI.html" >Last glacial inception</a>
+                  </li>
+                  <li >
+                    <a href="./freshwater.html" >Freshwater flux</a>
+                  </li>
+                  <li >
+                    <a href="./aU.html" >Authigenic U</a>
+                  </li>
+                  <li >
+                    <a href="./LILO_event.html" >LILO event</a>
+                  </li>
+                  <li >
+                    <a href="./IRDflux.html" >IRD flux</a>
+                  </li>
+                  <li >
+                    <a href="./suess.html" >Suess Effect</a>
+                  </li>
+                  <li >
+                    <a href="./Isostacy.html" >Isostasy</a>
+                  </li>
+                  <li >
+                    <a href="./ENSO.html" >ENSO</a>
+                  </li>
                 </ul>
-            </nav>
+              </li>
+                <li >
+                  <a href="./pages/photos.html" >Photos</a>
+                </li>
+
+                <li >
+                  <a href="./pages/thxsliterature.html" >Literature</a>
+                </li>
+
+                <li >
+                  <a href="./pages/contact.html" >Contact</a>
+                </li>
+
+              <li class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li >
+                    <a href="https://scholar.google.com/citations?user=381uqXwAAAAJ&hl=en"     target="_blank"
+>Google Scholar</a>
+                  </li>
+                  <li >
+                    <a href="https://github.com/yz3062"     target="_blank"
+>GitHub</a>
+                  </li>
+                  <li >
+                    <a href="https://bsky.app/profile/yzhouclimate.bsky.social"     target="_blank"
+>Bluesky</a>
+                  </li>
+                </ul>
+              </li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+
+    </div> <!--container-->
+  </nav>
+
+
+    <div class="container">
+      <div class="col-md-2">
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+              <div class="page-header">
+        <h1><a href="./">Yuxin Zhou - Home</a></h1>
+    </div>
+
         </div>
-    </header>
-    <main class="container mx-auto py-8">
-        <section class="bg-white p-6 rounded-lg shadow-md">
-            <p class="text-center">Hello! This is my personal website hosted on GitHub Pages.</p>
-        </section>
-    </main>
-    <footer class="bg-green-500 text-white py-4 mt-8">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2025 ctpallone</p>
+
+        <div class="row">
+<div id="page-content">
+  <p><img src="./images/fyq_3.jpg" alt="Profile picture" style="width: 100%;"/></p>
+<p>XX<p></p></div>
         </div>
-    </footer>
+
+        <div class="row">
+        </div>
+
+      </div>
+
+      <div class="col-md-2">
+      </div>
+    </div>
+
+
+  </div>
+
+    <nav id="footer" class="navbar navbar-default">
+    <div class="container">
+        <p id="footer-text" class="navbar-text text-center">
+          <span id="engine">
+            Compiled using
+            <a href="https://docs.getpelican.com">Pelican</a>
+          </span>
+          <span id="theme">
+            with theme
+            <a href="https://github.com/yuex/pelican-chameleon">Chameleon</a>
+          </span>
+          <span id="bootstrap">
+            on top of
+            <a href="https://getbootstrap.com/">Bootstrap</a>
+          </span>
+        </p>
+      </div>
+    </div>
+  </nav>
+
+
 </body>
 </html>
