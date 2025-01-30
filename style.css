@@ -73,3 +73,11 @@ footer {
     bottom: 0;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
